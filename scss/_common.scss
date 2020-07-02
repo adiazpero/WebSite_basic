@@ -16,3 +16,10 @@ h5,
 h6 {
     color: blue($color: #0f0569);
 }
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}

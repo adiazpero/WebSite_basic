@@ -129,8 +129,8 @@ main {
 
 main {
     .results {
-        background: #4175af;
-        padding-top: 30px;
+        background: #2d69ad;
+        padding: 60px 0;
         .conten-results {
             display: flex;
             justify-content: space-evenly;
@@ -138,8 +138,76 @@ main {
                 width: 60%;
                 display: flex;
                 flex-wrap: wrap;
-                .number {}
-                .results-text {}
+                .number {
+                    width: 45%;
+                    background: rgba(255, 255, 255, 0.2);
+                    color: #fff;
+                    border-radius: 10px;
+                    padding: 40px 35px;
+                    margin: 0 20px 20px 0;
+                    h4 {
+                        font-size: 50px;
+                        font-weight: 500;
+                    }
+                }
+            }
+            .results-text {
+                width: 37%;
+                h4 {
+                    font-size: 40px;
+                    color: #fff;
+                }
+                p {
+                    color: #fff;
+                    font-weight: 300;
+                    margin: 20px 0;
+                }
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    display: inline-block;
+                    border: 1px solid #fff;
+                    padding: 10px 0;
+                    width: 120px;
+                    text-align: center;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
+
+
+/*FIN SECCION RESULTS*/
+
+
+/*SECCION SERVICES*/
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 500px;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    .imagen-service {
+        img {
+            width: 500px;
+        }
+    }
+    .box-skills {
+        margin: 30px 30px 0 0;
+        h4 {
+            font-size: 24px;
+            background: #f2f2f2;
+            width: 350px;
+            border-radius: 6px;
+            padding: 10px 0 10px 15px;
+            margin-bottom: 10px;
+            i {
+                font-size: 20px;
+                color: rgb(34, 175, 34);
             }
         }
     }
