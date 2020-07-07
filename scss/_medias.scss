@@ -1,0 +1,176 @@
+/*Breakpoints responsive*/
+
+@media(max-width:800px) {
+    header {
+        .container {
+            .contenido-header {
+                flex-direction: column;
+                justify-content: space-evenly;
+                height: 720px;
+                .textos-header {
+                    margin: 0;
+                    h1 {
+                        font-size: 45px;
+                    }
+                }
+                .imagen-header {
+                    img {
+                        width: 400px;
+                    }
+                }
+            }
+        }
+    }
+    /*About us*/
+    main {
+        .about-us {
+            .contenedor1 {
+                .titulo {
+                    font-size: 45px;
+                }
+                .contenedor-articulos {
+                    .articulo {
+                        width: 45%;
+                    }
+                }
+            }
+        }
+        /*questions*/
+        .questions {
+            height: 720px;
+            justify-content: space-evenly;
+            flex-direction: column;
+            img {
+                width: 400px;
+            }
+        }
+        /*results*/
+        .results {
+            .conten-results {
+                flex-direction: column-reverse;
+                .numbers {
+                    width: 100%;
+                }
+                .results-text {
+                    width: 100%;
+                    a {
+                        margin-bottom: 60px;
+                    }
+                }
+            }
+        }
+        /*Services*/
+        .services {
+            flex-direction: column-reverse;
+            align-items: center;
+            .imagen-service {
+                img {
+                    width: 400px;
+                }
+            }
+            .box-skills {
+                margin: 0 0 40px 0;
+                h4 {
+                    width: 550px;
+                }
+            }
+        }
+    }
+    /*footer*/
+    footer {
+        justify-content: space-evenly;
+        .parteFooter {
+            width: 40%;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        nav {
+            .container {
+                .link-header {
+                    display: none;
+                }
+                .hamburguesa {
+                    display: block;
+                }
+                padding: 0 10px;
+            }
+            .container {
+                .contenido-header {
+                    height: 650px;
+                    .textos-header {
+                        h1 {
+                            font-size: 40px;
+                        }
+                    }
+                    .imagen-header {
+                        img {
+                            width: 300px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    main {
+        /*ABOUT US*/
+        .about-us {
+            .contenedor1 {
+                .titulo {
+                    font-size: 35px;
+                }
+                .contenedor-articulos {
+                    .articulo {
+                        width: 95%;
+                    }
+                }
+            }
+        }
+        /*QUESTIONS*/
+        .questions {
+            .imagen-questions {
+                img {
+                    width: 300px;
+                }
+            }
+        }
+        /*RESULTS*/
+        .results {
+            .conten-results {
+                .numbers {
+                    .number {
+                        width: 100%;
+                    }
+                }
+                .results-text {
+                    h4 {
+                        font-size: 35px;
+                    }
+                }
+            }
+        }
+        /*Services*/
+        .services {
+            .imagen-service {
+                img {
+                    width: 250px;
+                }
+            }
+            .box-skills {
+                h4 {
+                    width: 100%;
+                    padding: 0 3px;
+                }
+            }
+        }
+    }
+    footer {
+        .parteFooter {
+            width: 95%;
+            margin-bottom: 40px;
+        }
+    }
+}
